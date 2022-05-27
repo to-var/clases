@@ -14,16 +14,6 @@ _Nota: usar todas las opciones de instalación por defecto._
 
 ### Paso 2
 
-Abrir el terminal
-- Usuarios Windows: Presionar simultáneamente `[Tecla windows]` + `R`, luego escribir `cmd` y enter.
-- Usuarios MacOS: Presionar simultáneamente `[Command] + [Barra espaciadora]`, luego escribir `terminal` y enter.
-
-### Paso 3
-
-Escribir: `npm install -g browser-sync` y esperar a que termine la instalación. Cerrar el terminal al terminal.
-
-### Paso 4
-
 Crear carpeta de proyectos, la recomendación es usar un `path` sencillo, es decir `C:\\Development\` en Windows, o `~/Development` en MacOS/Linux. También se recomienda que las carpetas de proyectos no contengan espacios ni caracteres especiales diferentes a `-`.
 
 Ejemplos de rutas que funcionan bien:
@@ -38,7 +28,13 @@ Ejemplos de rutas que NO funcionan bien:
 - `C:\\Programación\`
 - `C:\\Users\jose\archivos-personales\otra-carpeta\otra\y-otra-carpeta-mas\sub-carpeta-2\Programación\`
 
-### Paso 5
+### Paso 3
+
+Abrir el terminal
+- Usuarios Windows: Presionar simultáneamente `[Tecla windows]` + `R`, luego escribir `cmd` y enter.
+- Usuarios MacOS: Presionar simultáneamente `[Command] + [Barra espaciadora]`, luego escribir `terminal` y enter.
+
+### Paso 4
 
 Aprender a navegar el sistema operativo usando comandos de consola:
 
@@ -47,7 +43,22 @@ Aprender a navegar el sistema operativo usando comandos de consola:
 - Lectura obligatoria para usuarios MacOS o Linux:
 https://programminghistorian.org/es/lecciones/introduccion-a-bash
 
-### Paso 6
+### Paso 5
 
 Estudiar tutorial básico de GIT:
 https://www.youtube.com/watch?v=hWglK8nWh60&ab_channel=Bluuweb
+
+### Paso 6
+
+Clonar este repositorio
+
+
+### Paso 7
+
+En el terminal: navegar hasta la carpeta del proyecto y ejecutar el comando `npm install` y esperar a que termine la instalación.
+
+Después de la instalación correr el proyecto ejecutando el comando `npm start`.
+
+Navegar a la dirección que provee la aplicación (usualmente algo parecido a http://192.168.x.x:8080)
+
+Nota: Para detener el servidor hay que abrir el terminal donde se está ejecutando el servidor y presionar simultáneamente `CTRL` + `C`.
