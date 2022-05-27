@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- style: Contiene estilos css para este archivo -->
+    <style>
+      /* Estilos aplicados a una clase css */
+      .mi-titulo {
+        font-size: 20px;
+        color: #5f0000;
+      }
+
+      .mi-parrafo {
+        font-size: 20px;
+      }
+
+      .contenedor {
+        /**
+         * Los estilos "flexbox" permiten organizar elementos
+         * de varias maneras (horizontal, vertical y alineamientos)
+        **/
+        display: flex;
+      }
+
+      /* Se pueden aplicar estilos a varias clases de esta manera */
+      .columna1,
+      .columna2,
+      .columna3 {
+        width: 100px;
+        height: 100px;
+      }
+
+      .columna1 {
+        background-color: red;
+      }
+
+      .columna2 {
+        background-color: blue;
+      }
+
+      .columna3 {
+        background-color: green;
+      }
+
+      .mi-tabla {
+        width: 100%;
+        font-size: 70px;
+        border: 1px solid black;
+      }
+
+      .nombre,
+      .nota {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Esta etiqueta tiene dos atributos: class e id -->
+    <h1 class="mi-titulo" id="mi-identificador">Mi Titulo</h1>
+    <p class="mi-parrafo">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at elit
+      sollicitudin, mollis turpis et, consequat tellus. Quisque imperdiet purus
+      ante, sed semper nulla ornare sit amet. Aliquam et sollicitudin magna.
+      Cras rhoncus ut lacus sed aliquet. Praesent ac augue at ex luctus
+      elementum quis eget dolor. Praesent orci urna, facilisis ac fringilla
+      semper, porttitor ut diam. Nunc non tristique felis, a faucibus tellus.
+      Donec laoreet porttitor hendrerit. Fusce eu eros augue. Nunc sapien
+      tortor, fermentum at euismod ac, viverra ornare lacus. Etiam auctor erat
+      nec mi laoreet, et sodales quam bibendum. Proin aliquet dolor vel est
+      rutrum pharetra. In eget convallis mauris. Maecenas eu laoreet magna.
+    </p>
+    <p>
+      Vivamus eu massa ac ex vestibulum dignissim eu sit amet mi. Etiam quis
+      metus erat. Phasellus elementum eu purus dictum faucibus. Aenean at mollis
+      ipsum, in aliquam risus. Suspendisse a orci non dui laoreet condimentum.
+      Donec ut lectus id dui mollis gravida. Pellentesque ex neque, fringilla
+      eget lacus vel, gravida blandit ipsum. Pellentesque odio mi, bibendum et
+      mollis vel, efficitur at elit. Aliquam vel eros aliquam felis mattis
+      feugiat. In a velit neque. Phasellus id blandit sapien.
+    </p>
+
+    <!--
+      Usamos div para elementos que solo van a contener
+      otros elementos y ademas no son de texto, ni botones,
+      ni enlaces.
+    -->
+    <div class="contenedor">
+      <div class="columna1"></div>
+      <div class="columna2"></div>
+      <div class="columna3"></div>
+    </div>
+
+    <!-- Tablas estilo excel -->
+    <table class="mi-tabla">
+      <!-- tr = "table row" o fila -->
+      <tr class="fila">
+        <!-- td = "table data" o mas bien una columna dentro de una fila -->
+        <td class="nombre">Peter</td>
+        <td class="nota">4.5</td>
+      </tr>
+
+      <tr class="fila">
+        <td class="nombre">Jose</td>
+        <td class="nota">2.4</td>
+      </tr>
+
+      <tr class="fila">
+        <td class="nombre">Daniel</td>
+        <td class="nota">5</td>
+      </tr>
+    </table>
+  </body>
+</html>
