@@ -50,7 +50,7 @@ https://www.youtube.com/watch?v=hWglK8nWh60&ab_channel=Bluuweb
 
 ### Paso 6
 
-Clonar este repositorio
+Clonar este repositorio (siguiendo instrucciones del tutorial del punto anterior)
 
 
 ### Paso 7
