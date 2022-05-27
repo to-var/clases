@@ -42,7 +42,12 @@ Ejemplos de rutas que NO funcionan bien:
 
 Aprender a navegar el sistema operativo usando comandos de consola:
 
-- Lectura obligatoria para usuarios Windows: `http://www.falconmasters.com/offtopic/como-utilizar-consola-de-windows/`
+- Lectura obligatoria para usuarios Windows: http://www.falconmasters.com/offtopic/como-utilizar-consola-de-windows/
 
 - Lectura obligatoria para usuarios MacOS o Linux:
-`https://programminghistorian.org/es/lecciones/introduccion-a-bash`
+https://programminghistorian.org/es/lecciones/introduccion-a-bash
+
+### Paso 6
+
+Estudiar tutorial básico de GIT:
+https://www.youtube.com/watch?v=hWglK8nWh60&ab_channel=Bluuweb
