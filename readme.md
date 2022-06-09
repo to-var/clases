@@ -59,6 +59,6 @@ En el terminal: navegar hasta la carpeta del proyecto y ejecutar el comando `npm
 
 Después de la instalación correr el proyecto ejecutando el comando `npm start`.
 
-Navegar a la dirección que provee la aplicación (usualmente algo parecido a http://192.168.x.x:8080)
+Abrir la siguiente dirección en el navegador: `http://localhost:8080/index.html`
 
 Nota: Para detener el servidor hay que abrir el terminal donde se está ejecutando el servidor y presionar simultáneamente `CTRL` + `C`.
